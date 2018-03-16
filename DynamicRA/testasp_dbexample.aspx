@@ -23,7 +23,7 @@
                     Label1.Text = "Customer Name From dB Is : " + dr.Item("Customer_Name").ToString()
                 Loop
             Else
-                Label1.Text = "Doesnt have rows"
+                Label1.Text = "Doesn't have rows"
             End If
             conn.Close()
         End If
